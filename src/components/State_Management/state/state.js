@@ -74,8 +74,8 @@ export default class extends Component {
                         <label >Usia</label>
                         <input type="text" name="usia" className="form-control" onChange={this.handleChange} placeholder="Masukan Usia Anda" />
                     </div>
-                    <a href="#" onClick={this.handleSubmit} className="btn btn-primary">Submit</a>
                 </form>
+                <button onClick={this.handleSubmit} className="btn btn-dark">Submit</button>
 
             </div>
         );
