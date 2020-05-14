@@ -1,0 +1,32 @@
+{
+  "result": [
+    {
+      "alamat": "CJR",
+      "id": 6
+    },
+    {
+      "nama": "nsns",
+      "alamat": "nsnsn",
+      "tgl_lahir": "2020/05/12",
+      "id": 9
+    },
+    {
+      "nama": "arif",
+      "alamat": "CJR",
+      "tgl_lahir": "2020-05-05T17:00:00.000Z",
+      "id": 10
+    },
+    {
+      "nama": "xxc",
+      "alamat": "ZCZC",
+      "tgl_lahir": "2020-05-05T17:00:00.000Z",
+      "id": 11
+    },
+    {
+      "nama": "sdsd",
+      "alamat": "sds",
+      "tgl_lahir": "2020-05-05T17:00:00.000Z",
+      "id": 12
+    }
+  ]
+}

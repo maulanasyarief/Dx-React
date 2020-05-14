@@ -1,0 +1,16 @@
+{
+  "result": [
+    {
+      "id": 5,
+      "nama": "",
+      "alamat": "",
+      "tgl_lahir": ""
+    },
+    {
+      "id": 6,
+      "nama": "Arief",
+      "alamat": "DEPOK",
+      "tgl_lahir": "2020-05-05T17:00:00.000Z"
+    }
+  ]
+}
