@@ -3,11 +3,11 @@ import { Column, DataGrid, GroupPanel, Scrolling, Editing } from 'devextreme-rea
 
 import { formatDate } from 'devextreme/localization';
 import CustomStore from 'devextreme/data/custom_store';
-import axios from 'axios';
+// import axios from 'axios';
 
 // const URL = 'https://dev-aks.000webhostapp.com/api/v1/bom';
 const URL = 'http://localhost:3005';
-const REFRESH_MODES = ['full', 'reshape', 'repaint'];
+// const REFRESH_MODES = ['full', 'reshape', 'repaint'];
 
 export default class extends Component {
     constructor(props) {

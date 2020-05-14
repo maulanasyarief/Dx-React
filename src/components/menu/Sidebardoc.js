@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './sidebar.css'
 
 class SidebarDoc extends Component {
@@ -8,9 +8,7 @@ class SidebarDoc extends Component {
             <div>
                 <nav id="sidebar">
                     <div id="dismiss">
-                        <a>
-                            <i className="fas fa-arrow-left"></i>
-                        </a>
+                        <i className="fas fa-arrow-left"></i>
                     </div>
                     <ul className="list-unstyled components">
                         <h5 className="text-center">Dokumentasi</h5>

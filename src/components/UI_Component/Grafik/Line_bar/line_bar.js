@@ -50,9 +50,6 @@ function customizePercentageText({ valueText }) {
     return `${valueText}%`;
 }
 
-var sty = {
-    // color:#74c983
-}
 
 export default class extends Component {
     render() {

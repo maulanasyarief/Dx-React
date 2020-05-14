@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SidebarDoc from '../../components/menu/Sidebardoc'
 import {
-    BrowserRoute, Route, Navlink, Switch,
-    useParams,
-    useRouteMatch
+    Route, Switch
 } from 'react-router-dom'
 import {
     Datagrid, DataGridArray, MasterDetail,
     PivotgridAPI, PivotgridArray,
     TreelistAPI, TreelistArray,
     BarChart, LinebarChart, LineChart, StackBar,
-    BasicState, ReduxLib, Footer
+    BasicState, ReduxLib
 } from '../../components'
 
 export default ({ match }) => {

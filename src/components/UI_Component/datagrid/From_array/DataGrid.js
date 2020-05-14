@@ -4,13 +4,13 @@ import DataGrid, {
     Column,
     Grouping,
     GroupPanel,
-    Pager,
+    // Pager,
     Paging,
     SearchPanel
 } from 'devextreme-react/data-grid';
 import { customers } from './data_array';
 
-const columns = ['CompanyName', 'City', 'State', 'Phone', 'Fax'];
+// const columns = ['CompanyName', 'City', 'State', 'Phone', 'Fax'];
 export default class extends Component {
     constructor(props) {
         super(props);

@@ -223,6 +223,7 @@ a.article:hover {
         height: 45px;
         line-height: 45px;
         content: #ffffff;
+        color: #ffffff;
         text-align: center;
         background: #2b2b2b;
         position: absolute;

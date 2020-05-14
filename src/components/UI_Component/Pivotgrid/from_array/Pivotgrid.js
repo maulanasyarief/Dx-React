@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PivotGrid, {
-    FieldChooser,
     Scrolling,
     Export
 } from 'devextreme-react/pivot-grid';

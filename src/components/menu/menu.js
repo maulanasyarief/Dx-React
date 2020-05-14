@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link, withRouter } from 'react-router-dom';
-import Logoreact from './logo-react.png'
 
 const isActive = (history, path) => {
     if (history.location.pathname === path) {
@@ -32,15 +31,12 @@ const Menu = ({ history }) => {
                         </li>
 
                         <li className="nav-item" style={isActive(history, "/doc")}>
-                            <Link Link className="nav-link text-light font-weight-bold px-3" to="/doc">DOKUMENTASI</Link>
+                            <Link className="nav-link text-light font-weight-bold px-3" to="/doc">Dokumentasi</Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link text-light font-weight-bold px-3" href="#">CONTACT</a>
-                        </li> */}
                     </ul>
                 </div>
             </div>
-        </nav >
+        </nav>
     )
 };
 

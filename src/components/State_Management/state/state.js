@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 export default class extends Component {
     constructor(props) {
         super(props);
@@ -75,7 +74,7 @@ export default class extends Component {
                         <label >Usia</label>
                         <input type="text" name="usia" className="form-control" onChange={this.handleChange} placeholder="Masukan Usia Anda" />
                     </div>
-                    <a onClick={this.handleSubmit} className="btn btn-primary">Submit</a>
+                    <a href="#" onClick={this.handleSubmit} className="btn btn-primary">Submit</a>
                 </form>
 
             </div>
