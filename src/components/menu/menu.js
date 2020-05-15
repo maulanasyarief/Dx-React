@@ -25,9 +25,9 @@ const Menu = ({ history }) => {
                 </button>
                 <div className=" collapse navbar-collapse justify-content-between" id="nav">
                     <ul className="navbar-nav">
-                        <li className="nav-item" style={isActive(history, "/")} >
+                        <li className="nav-item" style={isActive(history, "/Dx-react")} >
                             <Link className="nav-link text-white font-weight-bold "
-                                to="/"  >HOME</Link>
+                                to="/Dx-react"  >HOME</Link>
                         </li>
 
                         <li className="nav-item" style={isActive(history, "/doc")}>
